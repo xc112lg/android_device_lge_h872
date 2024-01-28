@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_h872.mk
+    $(LOCAL_DIR)/evolution_h872.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_h872-userdebug \
-    derp_h872-eng
+    evolution_h872-userdebug \
+   evolution_h872-eng
