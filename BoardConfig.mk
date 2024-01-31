@@ -31,3 +31,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24595398656
 
 # inherit from the proprietary version
 include vendor/lge/h872/BoardConfigVendor.mk
+
+VICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/evolution/config/device_framework_matrix.xml
