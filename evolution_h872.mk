@@ -20,10 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
-EVO_BUILD_TYPE := OFFICIAL
-EXTRA_UDFPS_ANIMATIONS := true
+EVO_BUILD_TYPE := UNOFFICIAL
+
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from h872 device
 $(call inherit-product, device/lge/h872/device.mk)
