@@ -23,7 +23,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 EVO_BUILD_TYPE := UNOFFICIAL
 
 TARGET_BOOT_ANIMATION_RES := 1080
-
+TARGET_USES_MINI_GAPPS := true
 # Inherit from h872 device
 $(call inherit-product, device/lge/h872/device.mk)
 
