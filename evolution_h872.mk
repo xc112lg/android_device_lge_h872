@@ -24,6 +24,7 @@ EVO_BUILD_TYPE := UNOFFICIAL
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_MINI_GAPPS := true
+TARGET_ENABLE_BLUR := false
 # Inherit from h872 device
 $(call inherit-product, device/lge/h872/device.mk)
 
