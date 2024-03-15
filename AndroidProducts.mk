@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_h872.mk
+    $(LOCAL_DIR)/cipher_h872.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_h872-userdebug \
-    lineage_h872-eng
+    cipher_h872-userdebug \
+    cipher_h872-eng
