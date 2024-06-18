@@ -35,6 +35,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lucye" \
     PRODUCT_DEVICE="lucye" \
     PRODUCT_NAME="lucye_tmo_us" \
-    PRIVATE_BUILD_DESC="lucye_tmo_us-user 8.0.0 OPR1.170623.032 183621644ce05 release-keys"
+    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V14.0.4.0.SJDMIXM release-keys"
 
-BUILD_FINGERPRINT := "lge/lucye_tmo_us/lucye:8.0.0/OPR1.170623.032/183621644ce05:user/release-keys"
+BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V14.0.4.0.SJDMIXM:user/release-keys
