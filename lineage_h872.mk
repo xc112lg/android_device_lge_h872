@@ -25,16 +25,18 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/lge/h872/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := h872
+PRODUCT_DEVICE := apollo
 PRODUCT_NAME := lineage_h872
-PRODUCT_BRAND := lge
-PRODUCT_MODEL := LG-H872
-PRODUCT_MANUFACTURER := LGE
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Xiaomi Mi 10T
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lucye" \
     PRODUCT_DEVICE="lucye" \
     PRODUCT_NAME="lucye_tmo_us" \
-    PRIVATE_BUILD_DESC="lucye_tmo_us-user 8.0.0 OPR1.170623.032 183621644ce05 release-keys"
+    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V14.0.4.0.SJDMIXM release-keys"
 
-BUILD_FINGERPRINT := "lge/lucye_tmo_us/lucye:8.0.0/OPR1.170623.032/183621644ce05:user/release-keys"
+BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V14.0.4.0.SJDMIXM:user/release-keys
