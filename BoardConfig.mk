@@ -22,7 +22,7 @@ DEVICE_PATH := device/lge/h872
 TARGET_OTA_ASSERT_DEVICE := g6,lucye,h872
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_h872_defconfig
+TARGET_KERNEL_CONFIG += vendor/lge/h872.config
 
 # Partitions
 BOARD_CACHEIMAGE_PARTITION_SIZE := 536870912
